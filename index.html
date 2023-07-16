@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weatherApplication">
+      <form class="fields">
+        <div class="row">
+          <div class="col-9">
+            <input
+              type="text"
+              placeholder="search city"
+              autocomplete="off"
+              autofocus="on"
+              id="searchInput"
+              class="form-control shadow-sm"
+            />
+          </div>
+          <div class="col-3">
+            <button
+              id="submitButton"
+              class="form-control btn btn-primary shadow-sm w-100"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+      <h1 id="cityName">City</h1>
+      <h2>currentDate</h2>
+      <div class="temp" id="temperature">Temperature</div>
+    </div>
+    <span class="owner">
+      <em>This page was built by</em>
+      <a href="https://www.linkedin.com/in/aphiwe-mufamadi-51487411a"
+        >Aphiwe Mufamadi</a
+      ></span
+    >
+    <script src="index.js"></script>
+  </body>
+</html>
